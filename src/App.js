@@ -3,6 +3,7 @@ import CartList from './components/CartList';
 import FooterCart from './components/FooterCart';
 import {useState} from 'react';
 import cartList from './service/cart';
+import Test from './components/Test';
 
 function App() {
 
@@ -107,6 +108,8 @@ function App() {
                     cartAmount={cartAmount()}
                     onClearAllCart={handleClearAllCart}
                 />
+                
+                <Test/>
 
             </section>
         </main>
