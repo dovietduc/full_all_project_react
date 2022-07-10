@@ -108,7 +108,6 @@ function App() {
                     cartAmount={cartAmount()}
                     onClearAllCart={handleClearAllCart}
                 />
-                <Test/>
 
             </section>
         </main>
